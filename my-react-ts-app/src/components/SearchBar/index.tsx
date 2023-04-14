@@ -11,10 +11,13 @@ import './style.scss';
 
 const Searchbar = (): ReactElement => {
   return (
-    <div className='searchbar' >
-      <SearchIcon />
-      <input className='searchbar__input' type='text' />
-    </div>
+    <form className='searchbar' >
+      <div className='searchbar__block' >
+        <SearchIcon />
+        <input className='searchbar__block-input' type='text' />
+      </div>
+      <button className='searchbar__button' >Search</button>
+    </form>
   )
 }
 
