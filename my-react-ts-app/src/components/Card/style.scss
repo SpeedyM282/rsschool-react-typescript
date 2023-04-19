@@ -1,0 +1,47 @@
+.card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__text-block {
+  height: 25%;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.card__text-block-author-major {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.card__icons-block {
+  padding: 3px 7px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__icons-block-inner {
+  display: flex;
+  gap: 15px;
+}
+
+.card__icons-block-inner-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.star-icon {
+  padding-left: 5px;
+  border-left: 1px solid gray;
+}

@@ -2,12 +2,6 @@ import React, { FC, ReactElement } from 'react';
 import Searchbar from '../SearchBar';
 import './style.scss';
 
-// type ChildProps = {
-//   name: string,
-//   id: number,
-//   bio?: string,
-// }
-// FC<ChildProps>
 
 const Navbar = (): ReactElement => {
   return (
