@@ -1,6 +1,6 @@
 export const cardInfo = [
   {
-    img: '../../assets/p1.jpg',
+    img: 'p1.jpg',
     location: 'Tashkent, Uzbekistan',
     author: 'Thomas Hedger',
     major: 'Art Direction',
@@ -9,7 +9,7 @@ export const cardInfo = [
     isFavorite: false
   },
   {
-    img: '../../assets/p2.jpg',
+    img: 'p2.jpg',
     location: 'Dubai, UAE',
     author: 'Steve Simpson',
     major: 'Branding, Graphic Design',
@@ -18,7 +18,7 @@ export const cardInfo = [
     isFavorite: false
   },
   {
-    img: '../../assets/p3.jpg',
+    img: 'p3.jpg',
     location: 'London, UK',
     author: 'John Smith',
     major: 'Exhibition Design',
@@ -27,7 +27,7 @@ export const cardInfo = [
     isFavorite: false
   },
   {
-    img: '../../assets/p4.jpg',
+    img: 'p4.jpg',
     location: 'New York, USA',
     author: 'Pasha Bumazhniy',
     major: 'Illustration, Fashion',
@@ -36,7 +36,7 @@ export const cardInfo = [
     isFavorite: false
   },
   {
-    img: '../../assets/p5.jpg',
+    img: 'p5.jpg',
     location: 'Moscow, Russia',
     author: 'Natasha Jen',
     major: 'UI/UX, Graphic Design',

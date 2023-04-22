@@ -18,7 +18,7 @@ type ChildProps = {
 const Card: FC<ChildProps> = ({ img, location, author, major, likes, views, isFavorite }): ReactElement => {
   return (
     <div className='card' >
-      <img className='card__image' src={img} alt='Card Image' />
+      <img className='card__image' src={`../../../public/assets/${img}`} alt='Card Image' />
 
       <div className='card__text-block' >
         <h3 className='card__text-block-location' >{location}</h3>
